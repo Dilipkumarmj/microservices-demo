@@ -8,10 +8,13 @@ spring:
           uri: https://github.com/Dilipkumarmj/spring-cloud-config-server-repository
           default-label: main
           username: Dilipkumarmj
-          password: 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
+          password: Dilipkumar@143
           clone-on-start: true
     fail-fast: true
   security:
     user:
       name: spring_cloud_user
-      password: springCloud_Pwd!
+      password: ENC(LwUU1jygA2Zz0OM3teUvt0xTEhSqiaTojDeu0psODDPpS0HG1GIJ6HyM3tO6aL6QWC9OVBh5+FqQaYXW8FfOhw==)
+jasypt:
+  encryptor:
+    password: Demo_Pwd!2020
